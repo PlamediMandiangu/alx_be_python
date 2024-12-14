@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # simple_interest.py
 
 
@@ -11,4 +12,6 @@ interest = principal * rate * time
 
 # Printing the result
 print(f"The simple interest is: {interest}")
+=======
+>>>>>>> f13a7119a5b72802a5766aedfd39ef687829bf99
 
