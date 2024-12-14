@@ -1,10 +1,10 @@
-
 # simple_interest.py
 
+
 # Defining the principal, rate, and time
-principal = 1000  # The principal amount in dollars
-rate = 0.05  # The annual interest rate (5%)
-time = 3  # The time the money is invested for, in years
+principal = 1000  
+rate = 0.05  
+time = 3  
 
 # Calculating simple interest
 interest = principal * rate * time
