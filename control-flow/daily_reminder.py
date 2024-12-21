@@ -18,7 +18,7 @@ match priority:
         else:
             reminder_message += ". It can be handled later today."
     case "low":
-        reminder_message = f"Note: '{task}' is a low priority task"
+        reminder_message = f"Reminder: '{task}' is a low priority task"
         if time_bound == "yes":
             reminder_message += " but it is time-sensitive, so consider completing it soon."
         else:
@@ -26,5 +26,5 @@ match priority:
     case _:
         reminder_message = "Sorry, I don't recognize that priority level. Please choose 'high', 'medium', or 'low'."
 
-# Step 3: Print the final reminder message
+# Step 3: Print the final reminder message with the correct format
 print(reminder_message)
