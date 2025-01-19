@@ -8,7 +8,7 @@ def safe_divide(numerator, denominator):
         
         # Perform division
         result = numerator / denominator
-        return f"The result of the division is {result:.2f}"
+        return f"The result of the division is {result:.1f}"  # Ensure 1 decimal place
     
     except ZeroDivisionError:
         # Handle division by zero
